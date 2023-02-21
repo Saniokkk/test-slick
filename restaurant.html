@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/test-slick/mimino.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ресторан</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  
+  <script type="module" crossorigin src="/test-slick/assets/slick.min-874c4b11.js"></script>
+  <link rel="stylesheet" href="/test-slick/assets/slick-057b7918.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo">MIMIH<span class="accent">O</span></a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="./restaurant.html" class="header-link">Ресторан</a>
+          </li>
+          <li class="header-item">
+            <div class="header-box">
+              <a href="tel:0955559533" class="header-tel-link">
+                <svg class="header-icon" width="24px" height="24px">
+                  <use href="/test-slick/assets/icons-78980eac.svg#phone"></use>
+                </svg>
+                <span class="header-tel">095 555 95 33</span>
+              </a>
+            </div>
+          </li>
+          <li class="header-item">
+            <a href="./hotel.html" class="header-link">Готель</a>
+          </li>
+          <li class="header-item">
+            <div class="header-box">
+              <a href="tel:0668491089" class="header-tel-link">
+                <svg class="header-icon" width="24px" height="24px">
+                  <use href="/test-slick/assets/icons-78980eac.svg#phone"></use>
+                </svg>
+                <span class="header-tel">066 849 10 89</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-social-list">
+        <li class="header-social-item">
+          <a href="https://www.instagram.com/" class="header-social-link" target="_blank" rel="noreferrer noopener">
+            <svg class="header-social-icon" width="24px" height="24px">
+              <use href="/test-slick/assets/icons-78980eac.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a href="https://www.facebook.com/" class="header-social-link" target="_blank" rel="noreferrer noopener">
+            <svg class="header-social-icon" width="24px" height="24px">
+              <use href="/test-slick/assets/icons-78980eac.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <a href="https://web.telegram.org/" class="header-social-link" target="_blank" rel="noreferrer noopener">
+            <svg class="header-social-icon" width="24px" height="24px">
+              <use href="/test-slick/assets/icons-78980eac.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <!-- ---------Restaurant Page Hero--------- -->
+<div class="restaurant-hero-overlay">
+  <section class="first-hero">
+    <div class="container">
+      <h1 class="first-hero-title title">MIMIH<span class="accent">O</span></h1>
+      <h2 class="first-hero-subtitle">Ресторан</h2>
+      <p class="first-hero-text">смак життя 24/7</p>
+      <div class="mimiho-bottom-wrap">
+        <address class="mimiho-address">
+          <a
+            class="maps-link link"
+            href="https://goo.gl/maps/gUJNV8gQoXNjQtDE9"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg class="location-icon" width="24" height="24">
+              <use href="/test-slick/assets/icons-78980eac.svg#location"></use>
+            </svg>
+            Україна, м. Полтава,<br />
+            вул. Маршала Бірюзова, 15</a
+          >
+        </address>
+        <div class="hero-button-wrap">
+          <button
+            type="button"
+            class="hero-button button js-open-modal"
+            data-modal="modaltable"
+          >
+            Забронювати столик
+          </button>
+          <a class="hero-button-link link" href="#menu">Переглянути меню</a>
+        </div>
+      </div>
+      <div class="mimiho-soc">
+        <ul class="mimiho-soc-list list">
+          <li class="mimiho-soc-item">
+            <a
+              href="https://www.instagram.com/"
+              class="mimiho-soc-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <svg class="mimiho-soc-icon" width="24" height="24">
+                <use href="/test-slick/assets/icons-78980eac.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mimiho-soc-item">
+            <a
+              href="https://uk-ua.facebook.com/"
+              class="mimiho-soc-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <svg class="mimiho-soc-icon" width="24" height="24">
+                <use href="/test-slick/assets/icons-78980eac.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mimiho-soc-item">
+            <a
+              href="https://web.telegram.org/"
+              class="mimiho-soc-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <svg class="mimiho-soc-icon" width="24" height="24">
+                <use href="/test-slick/assets/icons-78980eac.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <!-- -------About our kitchen------- -->
+  <section class="kitchen-section container">
+    <!-- прихований заголовок для краулерів -->
+    <h2 class="visually-hidden">About our kitchen</h2>
+    <p class="kitchen-about">Amet minim mollit non</p>
+
+    <!-- <p class="restoran-name"></p> -->
+    <h3 class="restoran-name">MIMIHO</h3>
+
+    <p class="interior-descript">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+
+    <div class="img-interrior">
+      <picture>
+        <source
+          srcset="/test-slick/assets/restaurant-interior-desktop-f810d2d0.jpg 1x, /test-slick/assets/restaurant-interior-desktop-2x-711a62fe.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/test-slick/assets/restaurant-interior-tablet-20b85179.jpg 1x, /test-slick/assets/restaurant-interior-tablet-2x-a3888e93.jpg 2x"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="/test-slick/assets/restaurant-interior-mobile-542a9c53.jpg 1x, /test-slick/assets/restaurant-interior-mobile-2x-93988c13.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          src="/test-slick/assets/restaurant-interior-mobile-542a9c53.jpg"
+          alt="restaurant-interior"
+        />
+        <!-- width="460"
+          height="574" -->
+      </picture>
+      <!-- <img
+        src="./img/restaurant-interior-mobile.jpg"
+        alt="restaurant-interior"
+        srcset="
+          ./img/restaurant-interior-mobile.jpg    1x,
+          ./img/restaurant-interior-mobile.jpg-2x 2x
+        "
+        width="244"
+        height="322"
+      /> -->
+    </div>
+
+    <div class="oruri">
+      <picture>
+        <source
+          srcset="/test-slick/assets/oruri-jacome-desktop-0c0fa980.jpg 1x, /test-slick/assets/oruri-jacome-desktop-2x-99fae0e3.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/test-slick/assets/oruri-jacome-tablet-5c302d26.jpg 1x, /test-slick/assets/oruri-jacome-tablet-2x-9c3919fe.jpg 2x"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="/test-slick/assets/oruri-jacome-mobile-cabec1d7.jpg 1x, /test-slick/assets/oruri-jacome-mobile-2x-b0b0ab9f.jpg 2x"
+          media="(min-width: 320px)"
+        />
+
+        <img
+          src="/test-slick/assets/oruri-jacome-mobile-cabec1d7.jpg"
+          alt="oruri-jacome"
+          srcset="
+            ./img/oruri-jacome-mobile.jpg    1x,
+            ./img/oruri-jacome-mobile.jpg-2x 2x
+          "
+        />
+        <!-- width="200"
+          height="278" -->
+        <!-- width="460"
+          height="574" -->
+      </picture>
+      <p class="oruri-descript">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="pexels-slider">
+      <ul class="slider-pic">
+        <li class="slider-item">
+          <picture>
+            <source
+              srcset="/test-slick/assets/helena-lopes-desktop-4e7ccb9f.jpg 1x, /test-slick/assets/helena-lopes-desktop-2x-428170e9.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/test-slick/assets/helena-lopes-tablet-fda1a8a1.jpg 1x, /test-slick/assets/helena-lopes-tablet-2x-e32a564a.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/test-slick/assets/helena-lopes-mobile-17c7f43f.jpg 1x, /test-slick/assets/helena-lopes-mobile-2x-c9da9a33.jpg 2x"
+              media="(min-width: 320px)"
+            />
+
+            <img
+              src="/test-slick/assets/helena-lopes-mobile-17c7f43f.jpg"
+              alt="helena-lopes"
+              srcset="
+                ./img/helena-lopes-mobile.jpg    1x,
+                ./img/helena-lopes-mobile.jpg-2x 2x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-item">
+          <picture>
+            <source
+              srcset="/test-slick/assets/mat-brown-desktop-0616dd83.jpg 1x, /test-slick/assets/mat-brown-desktop-2x-9153706a.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/test-slick/assets/mat-brown-tablet-724eaced.jpg 1x, /test-slick/assets/mat-brown-tablet-2x-ad897da4.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="data:image/jpeg;base64,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 1x, /test-slick/assets/mat-brown-mobile-2x-b61e63c9.jpg 2x"
+              media="(min-width: 320px)"
+            />
+
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="mat-brown"
+              srcset="
+                ./img/mat-brown-mobile.jpg    1x,
+                ./img/mat-brown-mobile.jpg-2x 2x
+              "
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+    <!-- ------------Restaurant Page Menu------------ -->
+
+<section class="restaurant-menu" id="menu">
+  <div class="container">
+    <h4 class="restaurant-menu-title">МЕНЮ РЕСТОРАНУ</h4>
+
+    <div class="tables">
+      <table class="restaurant-menu-table">
+        <tr class="restaurant-menu-row">
+          <th class="restaurant-menu-cell">Гарячі страви</th>
+          <th class=""></th>
+          <th class=""></th>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Борщ з телятини з квасолею</td>
+          <td class="restaurant-menu-cell2" rowspan="2">400 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">240 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Телятина, картопля, капуста, морква, цибуля, квасоля, часник,
+            помідори, зелень, сметана
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Суп сирний з куркою</td>
+          <td class="restaurant-menu-cell2" rowspan="2">400 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">200 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Курятина, картопля, морква, цибуля, печериці, сир м’який, зелень
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Паста карбонара</td>
+          <td class="restaurant-menu-cell2" rowspan="2">350 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">430 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Паста тальятеле, бекон, вершки, сир пармезан, яйце, зелень
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Стейк зі свинини</td>
+          <td class="restaurant-menu-cell2" rowspan="2">400 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">500 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Свиняча вирізка, спеціі, подається з соусом солодкий чилі та овочами
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Горбуша в соусі з білого вина</td>
+          <td class="restaurant-menu-cell2" rowspan="2">400 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">400 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4 last-cell">
+            Ніжна горбуша, вершковий соус на основі білого вина
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <th class="restaurant-menu-cell">Гарніри та закуски</th>
+          <th class=""></th>
+          <th class=""></th>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Запечені овочі</td>
+          <td class="restaurant-menu-cell2" rowspan="2">200 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">230 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Кабачок, перець, помідор, баклажан
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Картопля фрі</td>
+          <td class="restaurant-menu-cell2" rowspan="2">150 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">160 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">Картопля, соус томатний</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Картопля по-селянськи</td>
+          <td class="restaurant-menu-cell2" rowspan="2">150 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">160 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Картопля, спеції, соус пікантний
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Хрумкі соління з бочки</td>
+          <td class="restaurant-menu-cell2" rowspan="2">250 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">350 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Огірок солений, помідор квашений, квашена капуста, морква
+            по-корейські
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Крильця курячі в медовому соусі</td>
+          <td class="restaurant-menu-cell2" rowspan="2">400 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">420 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4 last-cell">
+            Крильця курячі, гірчично-медовий соус, подається з морквою, селерою
+            і соусом блючиз
+          </td>
+        </tr>
+      </table>
+
+      <table class="restaurant-menu-table table-two">
+        <tr class="restaurant-menu-row">
+          <th class="restaurant-menu-cell">Салати</th>
+          <th class=""></th>
+          <th class=""></th>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Цезар з куркою</td>
+          <td class="restaurant-menu-cell2" rowspan="2">230 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">450 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Куряче філе, листя салату, помідори чері, сир пармезан, грінки, соус
+            цезар
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Цезар з креветками</td>
+          <td class="restaurant-menu-cell2" rowspan="2">230 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">300 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Тигрові креветки, листя салату, помідори чері, сир пармезан, грінки,
+            соус цезар
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Грецький салат</td>
+          <td class="restaurant-menu-cell2" rowspan="2">230 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">280 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4">
+            Свіжі огірок, помідор, болгарський перець, оливки, сир бринза, листя
+            салату, соус
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">М’ясний салат</td>
+          <td class="restaurant-menu-cell2" rowspan="2">230 г</td>
+          <td class="restaurant-menu-cell3" rowspan="2">300 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell4 last-cell">
+            Куряче філе або свиняча вирізка, свіжі огірок, помідор, болгарський
+            перець, соус ранч
+          </td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <th class="restaurant-menu-cell">Десерти</th>
+          <th class=""></th>
+          <th class=""></th>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Торт наполеон</td>
+          <td class="restaurant-menu-cell2">230 г</td>
+          <td class="restaurant-menu-cell3">300 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Торт маковий</td>
+          <td class="restaurant-menu-cell2">230 г</td>
+          <td class="restaurant-menu-cell3">300 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Тірамісу</td>
+          <td class="restaurant-menu-cell2">120 г</td>
+          <td class="restaurant-menu-cell3">260 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <th class="restaurant-menu-cell">Напої</th>
+          <th class=""></th>
+          <th class=""></th>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Чай чорний/зелений</td>
+          <td class="restaurant-menu-cell2">500 мл</td>
+          <td class="restaurant-menu-cell3">100 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Еспресо</td>
+          <td class="restaurant-menu-cell2">30 мл</td>
+          <td class="restaurant-menu-cell3">100 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Американо</td>
+          <td class="restaurant-menu-cell2">150 мл</td>
+          <td class="restaurant-menu-cell3">100 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1 another-cell">Капучино</td>
+          <td class="restaurant-menu-cell2">200 мл</td>
+          <td class="restaurant-menu-cell3">160 грн</td>
+        </tr>
+        <tr class="restaurant-menu-row">
+          <td class="restaurant-menu-cell1">Лате</td>
+          <td class="restaurant-menu-cell2">200 мл</td>
+          <td class="restaurant-menu-cell3">160 грн</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="button-reserve">
+      <button
+        type="button"
+        class="menu-restaurant-btn js-open-modal"
+        data-modal="modaltable"
+      >
+        Забронювати столик
+      </button>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="./index.html" class="footer-logo">MIMIHO</a>
+      <div class="footer-box">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="./index.html" class="footer-nav-link">Головна</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./restaurant.html" class="footer-nav-link">Ресторан</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./hotel.html" class="footer-nav-link">Готель</a>
+          </li>
+        </ul>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a href="https://www.instagram.com/" class="footer-social-link" target="_blank" rel="noreferrer noopener">
+              <span class="footer-social-text">Instagram</span>
+              <svg class="footer-social-icon" width="24px" height="24px">
+                <use href="/test-slick/assets/icons-78980eac.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://www.facebook.com/" class="footer-social-link" target="_blank" rel="noreferrer noopener">
+              <span class="footer-social-text">Facebook</span>
+              <svg class="footer-social-icon" width="24px" height="24px">
+                <use href="/test-slick/assets/icons-78980eac.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://web.telegram.org/" class="footer-social-link" target="_blank" rel="noreferrer noopener">
+              <span class="footer-social-text">Telegram</span>
+              <svg class="footer-social-icon" width="24px" height="24px">
+                <use href="/test-slick/assets/icons-78980eac.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- ------------Book Table Modal window------------ -->
+<div class="book-table-modal modal" data-modal="modaltable">
+  <div class="modal-container book-table">
+    <button type="button" class="modal-close js-modal-close">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/test-slick/assets/icons-78980eac.svg#modal-close"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+
+    <form class="modal-form">
+      <div class="book-table-wrap">
+        <div class="modal-field">
+          <input
+            type="text"
+            class="modal-input"
+            name="book-table-user-name"
+            id="book-table-user-name"
+            placeholder="Ваше ім’я"
+            required
+          />
+
+          <label for="book-table-user-name" class="modal-input-label"
+            >На кого забронювати столик?</label
+          >
+        </div>
+
+        <div class="modal-field">
+          <input
+            type="tel"
+            class="modal-input"
+            name="book-table-user-phone"
+            id="book-table-user-phone"
+            placeholder="+38 (___) ___-__-__"
+            pattern="^[\+]?3?[\s]?8?[\s]?\(?0\d{2}?\)?[\s]?\d{3}[\s|-]?\d{2}[\s|-]?\d{2}$"
+            required
+          />
+          <label for="book-table-user-phone" class="modal-input-label"
+            >Номер телефону</label
+          >
+        </div>
+        <div class="modal-field">
+          <div class="select-wrap">
+            <select
+              class="modal-input"
+              name="book-table-person"
+              id="book-table-person"
+            >
+              <option>2</option>
+              <option>4</option>
+              <option>8</option>
+              <option>10</option>
+            </select>
+          </div>
+          <label for="book-table-person" class="modal-input-label"
+            >Столик на яку кількість осіб?</label
+          >
+        </div>
+
+        <div class="modal-field">
+          <div class="select-wrap">
+            <select
+              class="modal-input"
+              name="book-table-date"
+              id="book-table-date"
+            >
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+              <option value="day-after-tomorrow">Післязавтра</option>
+            </select>
+          </div>
+          <label for="book-table-date" class="modal-input-label"
+            >На яку дату бронювати?</label
+          >
+        </div>
+      </div>
+
+      <div class="modal-submit">
+        <button type="submit" class="modal-btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+  <div class="modal-overlay js-overlay-modal"></div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/slide.js"></script>
+</body>
+
+</html>
