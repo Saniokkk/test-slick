@@ -1,11 +1,11 @@
 {
-  "name": "team-19",
+  "name": "test-slick",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-19/",
+    "build": "vite build --base=/test-slick/",
     "preview": "vite preview"
   },
   "devDependencies": {
